@@ -1,0 +1,170 @@
+
+@media only screen and (max-width:1100px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+   
+    .footer_blg{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+}   
+
+
+@media only screen and (max-width:980px) {
+    .logo img{
+        height: 90px;
+    }
+    .menu li a {
+        padding: 10px;
+        display: block;
+    }
+    
+    
+    .banner_ctn h3, .banner_ctn h5{
+        font-size: 30px;
+    }
+    .service_all{
+        flex-wrap: wrap;
+    }
+    .service_blg{
+        flex-basis: 100%;
+    }
+    .service_blg{
+        margin-bottom: 60px;
+        min-height: auto;
+    }
+    .service_blg a{
+        position: relative;
+        left: auto;
+        right: 0;
+    }
+    .feature_blg h4 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .btn_style{
+        font-size: 14px;
+    }
+    .feature_blg_ctn{
+        padding: 0;
+    }
+    
+}
+
+@media only screen and (max-width:840px) {
+    .header{
+        position: relative;
+    }
+    .menu {
+        flex-basis: 100%;
+        text-align: center;
+        border-top: 2px solid #ddd;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #fff;
+        z-index: 9;
+        right: 0;
+        display: none;
+    }
+    .responsive_menu{
+        display: block;
+    }
+    .responsive_menu i {
+        font-size: 30px;
+    }
+    .banner_ctn h3, .banner_ctn h5{
+        font-size: 22px;
+    }
+    .feature_all{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .feature_blg{
+        flex-basis: 46%;
+        margin: 10px;
+    }
+    
+}
+
+@media only screen and (max-width:765px) {
+   
+    .banner_btn a {
+        padding: 5px 10px;
+        margin: 10px 5px;
+    }
+    .abt_lft, .abt_rht{
+        flex-basis: 100%;
+    }
+    .abt_lft{
+        margin-bottom: 15px;
+    }
+    .review_inr p{
+        max-width: 100%;
+    }
+    .enq_inr{
+        flex-basis: 100%;
+        padding:30px 10px;
+    }
+}
+@media only screen and (max-width:640px) {
+    .logo img {
+        height: 70px;
+    }
+   .top_header_all{
+       justify-content: center;
+   }
+   .top_header_rht{
+       margin-top: 10px;
+   }
+   .top_header_rht a{
+       padding: 5px 10px;
+       font-size: 12px;
+   }
+   .menu ul{
+       flex-direction: column;
+   }
+   .banner_ctn {
+       top: 10%;
+   }
+   .banner_ctn h3, .banner_ctn h5 {
+    font-size: 12px;
+    letter-spacing: 3px;
+    }
+    .banner_btn a {
+        padding: 3px 10px;
+        margin: 10px 5px;
+        font-size: 11px;
+    }
+    .feature_blg {
+        flex-basis: 85%;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .service_blg a{
+        font-size: 12px;
+    }
+    .about p {
+        text-align: justify;
+    }
+    .footer_blg .flex{
+        flex-wrap: wrap;
+    }
+    .footer_blg .wid_50{
+        flex-basis: 100%;
+        padding: 0;
+    }
+}
+@media only screen and (max-width:480px) {
+   
+  
+   
+}
+@media only screen and (max-width:380px) {
+   
+}
+
+
